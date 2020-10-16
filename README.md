@@ -1,6 +1,6 @@
 # API do Jogo da Velha
 
-## Dependencies
+## Dependências
 
 - Node.js 12.18.4 +
   - express
