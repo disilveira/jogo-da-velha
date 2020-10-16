@@ -1,0 +1,36 @@
+Dependências:
+
+Node.js 12.18.4 +
+  - express
+  - uuid
+  - cors
+
+Instalação:
+
+No diretório onde foi descompactado o código
+  - npm install
+  - npm start
+
+Métodos:
+
+POST - /game
+
+Retorna o id da partida e quem será o primeiro jogador
+
+{
+  "id": "fbf7d720-df90-48c4-91f7-9462deafefb8",
+  "firstPlayer": "X"
+}
+
+POST - /game/{id}/movement
+
+Realiza a jogada
+
+{
+  "id": "fbf7d720-df90-48c4-91f7-9462deafefb8",
+  "player": "X",
+  "position": {
+    "x": 0,
+    "y": 1
+  }
+}
